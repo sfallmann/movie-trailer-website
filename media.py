@@ -1,9 +1,16 @@
+# Movie Class
 
 
 class Movie():
     # title is the only required argument
-    def __init__(self, title, storyline=None, poster_image_url=None, trailer_youtube_url=None,
-                rated=None, runtime=None):
+    def __init__(
+        self, title,
+        storyline=None,
+        poster_image_url=None,
+        trailer_youtube_url=None,
+        rated=None,
+        runtime=None
+    ):
 
         self.title = title
         self.storyline = storyline

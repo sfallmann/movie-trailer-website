@@ -7,6 +7,7 @@ import json
 # Using www.omdbapi.com to get movie information
 OMDB_API = 'http://omdbapi.com/?type=movie&r=json&t='
 
+
 def get_movie(title):
 
     # Get the movie info from the api
@@ -20,11 +21,11 @@ def get_movie(title):
 
     # create an instance of movie with data
     movie = Movie(
-        title = title,
-        storyline = info["Plot"],
-        poster_image_url = info["Poster"],
-        rated = info["Rated"],
-        runtime = info["Runtime"]
+        title=title,
+        storyline=info["Plot"],
+        poster_image_url=info["Poster"],
+        rated=info["Rated"],
+        runtime=info["Runtime"]
     )
     if movie.rated == "NOT RATED":
         movie.rated = "NOT-RATED"
