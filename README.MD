@@ -12,13 +12,3 @@
   <li>Go to the folder where you downloaded the files</li>
   <li>Type python entertainment_center.py in  and hit Enter</li>
 </ul>
-
-
-<h3>Installation:</h3>
-<ul>
-  <li>Download files</li>
-  <li>Open command line(Windows) or terminal(Mac\Linux)</li>
-  <li>Go to the folder where you downloaded the files</li>
-  <li>Type python entertainment_center.py in  and hit Enter</li>
-</ul>
-
